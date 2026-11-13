@@ -1,0 +1,12 @@
+{
+  "name": "saratoga-partner-cold-call",
+  "private": true,
+  "type": "module",
+  "description": "Daily Salt Lake City partner-program outreach for Saratoga Mattresses (queues, dial sheets, Zoho upsert).",
+  "scripts": {
+    "upsert:day1": "node scripts/zoho-partner-upsert.mjs exports/day1-partner-outreach-payload.json",
+    "upsert:day2": "node scripts/zoho-partner-upsert.mjs exports/day2-partner-outreach-payload.json",
+    "csv:day1": "node scripts/export-zoho-csv.mjs queues/day1.json exports/day1-zoho-leads-import.csv",
+    "csv:day2": "node scripts/export-zoho-csv.mjs queues/day2.json exports/day2-zoho-leads-import.csv"
+  }
+}

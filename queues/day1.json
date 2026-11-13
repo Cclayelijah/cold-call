@@ -1,0 +1,240 @@
+{
+  "generatedAt": "2026-11-12T17:45:00-07:00",
+  "timezone": "America/Denver",
+  "program": "Saratoga Mattresses partner referral (10% commission)",
+  "crm": {
+    "system": "Zoho CRM",
+    "leadSource": "Partner Outreach",
+    "pr": "https://github.com/Cclayelijah/saratogamattresses/pull/19",
+    "endpoint": "POST https://saratogamattresses.com/api/partner-outreach.php",
+    "authHeader": "X-SM-Outreach-Secret",
+    "productionStatus": "api_404_awaiting_pr19_deploy",
+    "ci": "success",
+    "appsScriptPath": {
+      "docs": "scripts/calendar-zoho-sync/PARTNER_OUTREACH.md",
+      "authField": "secret",
+      "scriptProperty": "OUTREACH_SECRET",
+      "note": "Faster unblock than Hostinger file: deploy Apps Script web app from PartnerOutreach.gs on PR #19"
+    }
+  },
+  "leads": [
+    {
+      "company": "Sharp Water Solutions",
+      "city": "Bluffdale",
+      "phone": "801-233-3325",
+      "email": "info@sharpwatersolutions.com",
+      "website": "https://www.sharpwatersolutions.com",
+      "channel": "text",
+      "notes": "Warm SMS thread open; start here"
+    },
+    {
+      "company": "Element Water and Air",
+      "city": "Saratoga Springs",
+      "phone": "801-383-0880",
+      "email": "support@elementwaterandair.com",
+      "website": "https://elementwaterandair.com",
+      "channel": "phone",
+      "notes": "Local brand overlap"
+    },
+    {
+      "company": "NuWater Technologies",
+      "city": "South Jordan",
+      "phone": "801-856-9671",
+      "email": "brad@nuwatertec.com",
+      "website": "https://www.nuwaterutah.com",
+      "channel": "phone",
+      "notes": "Ask for Brad Casper"
+    },
+    {
+      "company": "Glover Services",
+      "city": "Bluffdale",
+      "phone": "801-679-4266",
+      "email": "mpglover@goglover.com",
+      "website": "https://www.goglover.com",
+      "channel": "phone",
+      "notes": "Multi-trade facility/home services"
+    },
+    {
+      "company": "Legends Mechanical",
+      "city": "Salt Lake area",
+      "phone": "801-599-8563",
+      "email": "scott@legendsmechanical.com",
+      "website": "https://legendsmechanical.com",
+      "channel": "email",
+      "notes": "Partner Scott Carpenter; HVAC \u2014 email tonight, phone Fri if no reply",
+      "name": "Scott Carpenter"
+    },
+    {
+      "company": "Big Rock Plumbing & HVAC",
+      "city": "Sandy",
+      "phone": "801-565-5855",
+      "email": "office@bigrockplumbing.com",
+      "website": "https://bigrockplumbing.com",
+      "channel": "email",
+      "notes": "Named contact Adam; new construction plumbing/HVAC \u2014 email tonight",
+      "name": "Adam Flamm"
+    },
+    {
+      "company": "Hansen HVAC & Plumbing",
+      "city": "West Jordan",
+      "phone": "801-280-8812",
+      "email": "info@hansenhvacservices.com",
+      "website": "https://hansenhvacservices.com",
+      "channel": "phone",
+      "notes": "Residential HVAC/plumbing"
+    },
+    {
+      "company": "Daisy Maids",
+      "city": "Salt Lake County",
+      "phone": "801-955-8228",
+      "email": "info@daisymaids.com",
+      "website": "https://www.daisymaids.com",
+      "channel": "email",
+      "notes": "Cleaning crews; move-in moments"
+    },
+    {
+      "company": "Berli B Design",
+      "city": "Draper",
+      "phone": "801-550-0594",
+      "email": "kimbench@me.com",
+      "website": "https://www.berlibdesign.com",
+      "channel": "email",
+      "notes": "Interior design"
+    },
+    {
+      "company": "HomStyl Interior Design",
+      "city": "South Jordan",
+      "phone": "801-450-1345",
+      "email": "stefanie@homstyl.com",
+      "website": "https://homstyl.com",
+      "channel": "phone",
+      "notes": "Ask for Stefanie"
+    }
+  ],
+  "sendPlan": {
+    "tonight_america_denver": [
+      {
+        "company": "Sharp Water Solutions",
+        "channel": "text"
+      },
+      {
+        "company": "Berli B Design",
+        "channel": "email"
+      },
+      {
+        "company": "HomStyl Interior Design",
+        "channel": "email"
+      },
+      {
+        "company": "Daisy Maids",
+        "channel": "email"
+      },
+      {
+        "company": "Big Rock Plumbing & HVAC",
+        "channel": "email"
+      },
+      {
+        "company": "Legends Mechanical",
+        "channel": "email"
+      }
+    ],
+    "friday_morning_phone": [
+      "NuWater Technologies",
+      "Element Water and Air",
+      "Glover Services",
+      "Hansen HVAC & Plumbing"
+    ]
+  },
+  "openers": [
+    {
+      "company": "Sharp Water Solutions",
+      "phone": "801-233-3325",
+      "email": "info@sharpwatersolutions.com",
+      "when": "tonight",
+      "how": "text",
+      "subject": null,
+      "body": "Hi \u2014 not a service request. I'm with Saratoga Mattresses (SLC showroom). Looking for the owner/office manager about a simple local referral partnership: your customers get a mattress discount code, you earn 10% when they buy. Who's best for that?"
+    },
+    {
+      "company": "Element Water and Air",
+      "phone": "801-383-0880",
+      "email": "support@elementwaterandair.com",
+      "when": "friday_9am_mt",
+      "how": "phone",
+      "subject": null,
+      "body": "Hi, this is Elijah with Saratoga Mattresses on 300 West. Quick partnership ask \u2014 not a sales call for a job. We give local home-service partners a discount-code flyer. Their customers get 10% off a mattress in our showroom; the partner earns 10% of that discounted subtotal. No inventory on your side. Is the owner or office manager available for 2 minutes, or should I email a one-pager?"
+    },
+    {
+      "company": "NuWater Technologies",
+      "phone": "801-856-9671",
+      "email": "brad@nuwatertec.com",
+      "when": "friday_9am_mt",
+      "how": "phone",
+      "subject": null,
+      "body": "Hi, this is Elijah with Saratoga Mattresses on 300 West. Quick partnership ask \u2014 not a sales call for a job. We give local home-service partners a discount-code flyer. Their customers get 10% off a mattress in our showroom; the partner earns 10% of that discounted subtotal. No inventory on your side. Is the owner or office manager available for 2 minutes, or should I email a one-pager? (Ask for Brad Casper.)"
+    },
+    {
+      "company": "Glover Services",
+      "phone": "801-679-4266",
+      "email": "mpglover@goglover.com",
+      "when": "friday_9am_mt",
+      "how": "phone",
+      "subject": null,
+      "body": "Hi, this is Elijah with Saratoga Mattresses on 300 West. Quick partnership ask \u2014 not a sales call for a job. We give local home-service partners a discount-code flyer. Their customers get 10% off a mattress in our showroom; the partner earns 10% of that discounted subtotal. No inventory on your side. Is the owner or office manager available for 2 minutes, or should I email a one-pager?"
+    },
+    {
+      "company": "Legends Mechanical",
+      "phone": "801-599-8563",
+      "email": "scott@legendsmechanical.com",
+      "when": "tonight",
+      "how": "email",
+      "subject": "Local referral partnership \u2014 Saratoga Mattresses (10% partner earn)",
+      "body": "Hi Scott,\n\nI'm Elijah with Saratoga Mattresses (showroom at 3510 S 300 W, Salt Lake City). We run a simple partner program for local home-service and design businesses whose teams are already in customers' homes.\n\nHow it works:\n\u2022 You get a unique discount code + printable flyers\n\u2022 Your customer gets 10% off a qualifying mattress in our showroom\n\u2022 You earn 10% of the mattress subtotal after that discount (not tax/delivery)\n\u2022 Track earnings at partner.saratogamattresses.com\n\nWould you be open to a 10-minute call this week, or should I drop a sample flyer by your office?\n\nThanks,\nElijah Cannon\nSaratoga Mattresses\n801-643-1098 \u00b7 contact@saratogamattresses.com\nhttps://partner.saratogamattresses.com/"
+    },
+    {
+      "company": "Big Rock Plumbing & HVAC",
+      "phone": "801-565-5855",
+      "email": "office@bigrockplumbing.com",
+      "when": "tonight",
+      "how": "email",
+      "subject": "Local referral partnership \u2014 Saratoga Mattresses (10% partner earn)",
+      "body": "Hi Adam,\n\nI'm Elijah with Saratoga Mattresses (showroom at 3510 S 300 W, Salt Lake City). We run a simple partner program for local home-service and design businesses whose teams are already in customers' homes.\n\nHow it works:\n\u2022 You get a unique discount code + printable flyers\n\u2022 Your customer gets 10% off a qualifying mattress in our showroom\n\u2022 You earn 10% of the mattress subtotal after that discount (not tax/delivery)\n\u2022 Track earnings at partner.saratogamattresses.com\n\nWould you be open to a 10-minute call this week, or should I drop a sample flyer by your office?\n\nThanks,\nElijah Cannon\nSaratoga Mattresses\n801-643-1098 \u00b7 contact@saratogamattresses.com\nhttps://partner.saratogamattresses.com/"
+    },
+    {
+      "company": "Hansen HVAC & Plumbing",
+      "phone": "801-280-8812",
+      "email": "info@hansenhvacservices.com",
+      "when": "friday_9am_mt",
+      "how": "phone",
+      "subject": null,
+      "body": "Hi, this is Elijah with Saratoga Mattresses on 300 West. Quick partnership ask \u2014 not a sales call for a job. We give local home-service partners a discount-code flyer. Their customers get 10% off a mattress in our showroom; the partner earns 10% of that discounted subtotal. No inventory on your side. Is the owner or office manager available for 2 minutes, or should I email a one-pager?"
+    },
+    {
+      "company": "Daisy Maids",
+      "phone": "801-955-8228",
+      "email": "info@daisymaids.com",
+      "when": "tonight",
+      "how": "email",
+      "subject": "Local referral partnership \u2014 Saratoga Mattresses (10% partner earn)",
+      "body": "Hi team,\n\nI'm Elijah with Saratoga Mattresses (showroom at 3510 S 300 W, Salt Lake City). We run a simple partner program for local home-service and design businesses whose teams are already in customers' homes.\n\nHow it works:\n\u2022 You get a unique discount code + printable flyers\n\u2022 Your customer gets 10% off a qualifying mattress in our showroom\n\u2022 You earn 10% of the mattress subtotal after that discount (not tax/delivery)\n\u2022 Track earnings at partner.saratogamattresses.com\n\nWould you be open to a 10-minute call this week, or should I drop a sample flyer by your office?\n\nThanks,\nElijah Cannon\nSaratoga Mattresses\n801-643-1098 \u00b7 contact@saratogamattresses.com\nhttps://partner.saratogamattresses.com/"
+    },
+    {
+      "company": "Berli B Design",
+      "phone": "801-550-0594",
+      "email": "kimbench@me.com",
+      "when": "tonight",
+      "how": "email",
+      "subject": "Local referral partnership \u2014 Saratoga Mattresses (10% partner earn)",
+      "body": "Hi Kim,\n\nI'm Elijah with Saratoga Mattresses (showroom at 3510 S 300 W, Salt Lake City). We run a simple partner program for local home-service and design businesses whose teams are already in customers' homes.\n\nHow it works:\n\u2022 You get a unique discount code + printable flyers\n\u2022 Your customer gets 10% off a qualifying mattress in our showroom\n\u2022 You earn 10% of the mattress subtotal after that discount (not tax/delivery)\n\u2022 Track earnings at partner.saratogamattresses.com\n\nWould you be open to a 10-minute call this week, or should I drop a sample flyer by your office?\n\nThanks,\nElijah Cannon\nSaratoga Mattresses\n801-643-1098 \u00b7 contact@saratogamattresses.com\nhttps://partner.saratogamattresses.com/"
+    },
+    {
+      "company": "HomStyl Interior Design",
+      "phone": "801-450-1345",
+      "email": "stefanie@homstyl.com",
+      "when": "tonight",
+      "how": "email",
+      "subject": "Local referral partnership \u2014 Saratoga Mattresses (10% partner earn)",
+      "body": "Hi Stefanie,\n\nI'm Elijah with Saratoga Mattresses (showroom at 3510 S 300 W, Salt Lake City). We run a simple partner program for local home-service and design businesses whose teams are already in customers' homes.\n\nHow it works:\n\u2022 You get a unique discount code + printable flyers\n\u2022 Your customer gets 10% off a qualifying mattress in our showroom\n\u2022 You earn 10% of the mattress subtotal after that discount (not tax/delivery)\n\u2022 Track earnings at partner.saratogamattresses.com\n\nWould you be open to a 10-minute call this week, or should I drop a sample flyer by your office?\n\nThanks,\nElijah Cannon\nSaratoga Mattresses\n801-643-1098 \u00b7 contact@saratogamattresses.com\nhttps://partner.saratogamattresses.com/"
+    }
+  ]
+}
