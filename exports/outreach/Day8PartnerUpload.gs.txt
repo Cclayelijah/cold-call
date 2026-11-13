@@ -1,0 +1,131 @@
+/**
+ * Day 8 Partner Outreach — one-click Zoho upsert from the Apps Script editor.
+ * Requires PartnerOutreach.gs in the SAME project (Calendar → Zoho).
+ * Uses existing ZOHO_* Script Properties. CRM upload only — no emails sent.
+ *
+ * Steps:
+ * 1. Paste PartnerOutreach.gs.txt as file PartnerOutreach
+ * 2. Paste THIS file as Day8PartnerUpload
+ * 3. Select function runDay8PartnerOutreachUpload → Run
+ * 4. Confirm in Zoho: Lead Source = Partner Outreach
+ */
+var DAY8_PARTNER_LEADS = [
+  {
+    "company": "Blue Best",
+    "phone": "801-801-2378",
+    "email": "info@bluebest.com",
+    "website": "https://bluebest.com",
+    "city": "Bountiful / Wasatch Front",
+    "channel": "phone",
+    "notes": "Women-owned HVAC/plumbing/water treatment; strong water-hardness angle for mattress partnership"
+  },
+  {
+    "company": "Scott Hale Plumbing Drains Heating & Air",
+    "phone": "801-406-6797",
+    "email": "csr@scotthale.com",
+    "website": "https://scotthale.com",
+    "city": "Murray",
+    "channel": "phone",
+    "notes": "40+ years Wasatch Front multi-trade; ask for office manager"
+  },
+  {
+    "company": "SameDay Heating & Air",
+    "phone": "801-726-3329",
+    "email": "contact@samedayutah.com",
+    "website": "https://samedayutah.com",
+    "city": "Salt Lake City",
+    "channel": "phone",
+    "notes": "HVAC + plumbing + electrical; high volume techs in homes daily"
+  },
+  {
+    "company": "Comfort Solutions",
+    "phone": "385-276-0346",
+    "email": "shane@comfortsolutionsutah.com",
+    "website": "https://www.comfortsolutionsutah.com",
+    "city": "Sandy",
+    "channel": "email",
+    "notes": "Sandy showroom HVAC/plumbing/fireplaces — email Shane, phone if no reply",
+    "name": "Shane"
+  },
+  {
+    "company": "Friendly Plumber Heating & Air",
+    "phone": "801-845-3544",
+    "email": "customerservice@myfriendlyplumber.com",
+    "website": "https://friendlyhomeservice.com",
+    "city": "Salt Lake City",
+    "channel": "phone",
+    "notes": "Also known as Friendly Home Services / Just Right; multi-trade SLC"
+  },
+  {
+    "company": "Pond's Plumbing Heating & Air",
+    "phone": "801-203-3526",
+    "email": "ralph@pondsutah.com",
+    "website": "https://pondsutah.com",
+    "city": "North Salt Lake",
+    "channel": "email",
+    "notes": "Named contact Ralph; residential + commercial plumbing/HVAC",
+    "name": "Ralph Pond"
+  },
+  {
+    "company": "Salt Lake Shine Cleaning",
+    "phone": "801-513-3583",
+    "email": "hello@saltlakeshineclean.com",
+    "website": "https://saltlakeshineclean.com",
+    "city": "Salt Lake Valley",
+    "channel": "email",
+    "notes": "Owner-operated move-in/out cleans — strong mattress referral moment"
+  },
+  {
+    "company": "Zive Cleaning",
+    "phone": "385-203-8959",
+    "email": "alan@ziveclean.com",
+    "website": "https://www.ziveclean.com",
+    "city": "Salt Lake County",
+    "channel": "phone",
+    "notes": "Owner Alan; move cleans + recurring — call/text OK",
+    "name": "Alan"
+  },
+  {
+    "company": "Elevated Installations & Moving",
+    "phone": "385-256-3834",
+    "email": "elevatedinstallationsslc@gmail.com",
+    "website": "https://www.elevatedinstallationsandmoving.com",
+    "city": "Salt Lake City",
+    "channel": "phone",
+    "notes": "Movers + furniture install for designers — bedroom delivery moments"
+  },
+  {
+    "company": "Hygge Mae Home",
+    "phone": "801-913-5300",
+    "email": "tricia@hyggemaehome.com",
+    "website": "https://www.hyggemaehome.com",
+    "city": "Greater Salt Lake / Park City",
+    "channel": "email",
+    "notes": "Interior design consulting — email Tricia about partner flyer for clients",
+    "name": "Tricia"
+  }
+];
+
+/**
+ * Editor entry point — no web app deploy required.
+ * Creates OUTREACH_SECRET in Script Properties if missing (also usable later by zoho-upload.html).
+ */
+function runDay8PartnerOutreachUpload() {
+  var props = PropertiesService.getScriptProperties();
+  var secret = props.getProperty('OUTREACH_SECRET');
+  if (!secret) {
+    secret = Utilities.getUuid().replace(/-/g, '') + Utilities.getUuid().replace(/-/g, '');
+    props.setProperty('OUTREACH_SECRET', secret);
+    Logger.log('Created OUTREACH_SECRET in Script Properties (keep for web upload page).');
+  }
+  if (typeof upsertPartnerOutreachLeads !== 'function') {
+    throw new Error('Add PartnerOutreach.gs to this project first (function upsertPartnerOutreachLeads missing).');
+  }
+  var result = upsertPartnerOutreachLeads({ secret: secret, leads: DAY8_PARTNER_LEADS });
+  Logger.log(JSON.stringify(result, null, 2));
+  if (!result || !result.ok) {
+    throw new Error('Day 8 upsert incomplete: ' + JSON.stringify(result));
+  }
+  Logger.log('Day 8 saved ' + result.saved + '/' + result.total + ' Partner Outreach leads.');
+  return result;
+}
