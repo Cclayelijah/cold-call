@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="robots" content="noindex,nofollow" />
+<title>Zoho import — Day 1 Partner Outreach</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:720px;margin:24px auto;padding:0 16px 48px;line-height:1.5;color:#1c1914;background:#f7f3ea}
+h1{font-size:1.45rem;margin:0 0 8px}
+.card{background:#fff;border:1px solid #cfc6b4;border-radius:10px;padding:14px 16px;margin:14px 0}
+.btn{display:block;text-align:center;background:#0b3d4a;color:#fff;text-decoration:none;padding:14px 16px;border-radius:8px;font:600 16px system-ui;margin:10px 0}
+.btn.secondary{background:#5a6b70}
+code{background:#f3eee3;padding:2px 6px;border-radius:4px;font-size:.92em}
+ol{padding-left:1.2rem;margin:8px 0}
+li{margin:8px 0}
+.note{font-size:.92rem;color:#444}
+table{width:100%;border-collapse:collapse;font-size:.9rem;margin-top:8px}
+td,th{border:1px solid #ddd;padding:8px;text-align:left}
+th{background:#f3eee3}
+</style>
+</head>
+<body>
+<h1>Upload Day 1 partners to Zoho</h1>
+<p class="note">Keeps mattress customers separate: set <strong>Lead Source = Partner Outreach</strong> (not Web Download).</p>
+
+<div class="card">
+  <a class="btn" href="./day1-zoho-leads-import.csv" download>1. Download Day 1 CSV</a>
+  <a class="btn secondary" href="https://crm.zoho.com/" target="_blank" rel="noopener">2. Open Zoho CRM</a>
+  <a class="btn secondary" href="./day1-tonight.html">3. After import → start conversations</a>
+</div>
+
+<div class="card">
+  <h2>Import steps (phone or desktop)</h2>
+  <ol>
+    <li>Zoho CRM → <strong>Leads</strong> → <strong>Import</strong> (⋯ menu on mobile).</li>
+    <li>Upload <code>day1-zoho-leads-import.csv</code>.</li>
+    <li>Map fields using the table below.</li>
+    <li>If <code>Partner Outreach</code> is missing from Lead Source: Setup → Modules and Fields → Leads → Lead Source → add that exact value → resume import.</li>
+    <li>Finish import. Confirm you see <strong>Sharp Water Solutions</strong> with Lead Source Partner Outreach.</li>
+  </ol>
+</div>
+
+<div class="card">
+  <h2>Field mapping</h2>
+  <table>
+    <tr><th>CSV column</th><th>Zoho field</th></tr>
+    <tr><td>Company</td><td>Company</td></tr>
+    <tr><td>First Name</td><td>First Name</td></tr>
+    <tr><td>Last Name</td><td>Last Name</td></tr>
+    <tr><td>Email</td><td>Email</td></tr>
+    <tr><td>Phone</td><td>Phone</td></tr>
+    <tr><td>Website</td><td>Website</td></tr>
+    <tr><td>City</td><td>City</td></tr>
+    <tr><td>Lead Source</td><td>Lead Source → <strong>Partner Outreach</strong></td></tr>
+    <tr><td>Lead Status</td><td>Lead Status → Not Contacted</td></tr>
+    <tr><td>Description</td><td>Description</td></tr>
+  </table>
+</div>
+
+<div class="card">
+  <h2>API alternative</h2>
+  <p class="note">Have Self Client credentials? Use a fresh <a href="./zoho-grant.html">grant token</a> instead of CSV.</p>
+</div>
+
+<div class="card">
+  <h2>Why this split</h2>
+  <p class="note">Mattress shoppers stay <code>Web Download</code>. Partner businesses are <code>Partner Outreach</code> so lists, workflows, and reports stay separate.</p>
+</div>
+</body>
+</html>

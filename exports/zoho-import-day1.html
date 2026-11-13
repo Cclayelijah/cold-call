@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zoho import — Day 1 Partner Outreach</title>
+<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:24px auto;padding:0 16px;line-height:1.5}code{background:#f3eee3;padding:2px 6px;border-radius:4px}.btn{display:inline-block;background:#0b3d4a;color:#fff;text-decoration:none;padding:10px 14px;border-radius:6px;margin:8px 8px 8px 0}ol{padding-left:1.2rem}</style></head><body>
+<h1>Upload Day 1 to Zoho (CSV)</h1>
+<p>Use this if GitHub Actions / Apps Script / API secrets are not ready yet.</p>
+<ol>
+<li>In Zoho CRM → Setup → Modules and Fields → Leads → <strong>Lead Source</strong> → add picklist value <code>Partner Outreach</code> (exact spelling).</li>
+<li>Download the CSV: <a class="btn" href="day1-zoho-leads-import.csv" download>Download Day 1 CSV</a></li>
+<li>Zoho CRM → Leads → <strong>Import</strong> → upload the CSV → map columns → confirm Lead Source = Partner Outreach.</li>
+<li>Return to <a href="/">tonight dial sheet</a> and send the 6 outreaches.</li>
+</ol>
+<p>Prefer automation later: add ZOHO_* to cold-call GitHub Actions secrets and run workflow <em>Zoho Partner Outreach upsert</em>.</p>
+</body></html>

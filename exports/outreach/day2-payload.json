@@ -1,0 +1,99 @@
+{
+  "day": 2,
+  "generatedAt": "2026-11-12T18:10:00-07:00",
+  "leads": [
+    {
+      "company": "Comfort Pros Plumbing Heating & Air",
+      "phone": "801-405-9034",
+      "email": "admin@comfortprosutah.com",
+      "website": "https://www.comfortprosutah.com",
+      "city": "Draper",
+      "channel": "email",
+      "notes": "HVAC+plumbing+softeners; south valley"
+    },
+    {
+      "company": "Manwill Plumbing Heating & Air",
+      "phone": "801-262-4671",
+      "email": "manwillplumbing@gmail.com",
+      "website": "https://manwill.net",
+      "city": "Salt Lake City",
+      "channel": "phone",
+      "notes": "Nearly 100 years; water softeners + plumbing"
+    },
+    {
+      "company": "1st American Plumbing Heating & Air",
+      "phone": "801-695-4114",
+      "email": "info@1stamericanplumbing.com",
+      "website": "https://www.1stamericanplumbing.com",
+      "city": "Herriman",
+      "channel": "email",
+      "notes": "Bluffdale/Herriman hard-water focus"
+    },
+    {
+      "company": "Towers Plumbing",
+      "phone": "801-266-3529",
+      "email": "info@towersplumbing.com",
+      "website": "https://towersplumbing.com",
+      "city": "Murray / SLC",
+      "channel": "phone",
+      "notes": "Family-owned since 1942; HVAC+plumbing"
+    },
+    {
+      "company": "Maven Home Interiors",
+      "name": "Rachel Hutchens",
+      "phone": "801-448-6524",
+      "email": "rachel@mavenhomeinteriors.com",
+      "website": "https://www.mavenhomeinteriors.com",
+      "city": "West Jordan area",
+      "channel": "email",
+      "notes": "Kitchen/bath/remodel design — mattress fit"
+    },
+    {
+      "company": "Stage 7 Design",
+      "name": "Samantha Carson",
+      "phone": "385-258-3128",
+      "email": "info@stage7design.com",
+      "website": "https://www.stage7design.com",
+      "city": "Salt Lake County",
+      "channel": "email",
+      "notes": "Interior design + staging; realtor adjacent"
+    },
+    {
+      "company": "Nest Style & Design",
+      "name": "Brittany",
+      "phone": "435-764-4694",
+      "email": "brittany@neststyleanddesign.com",
+      "website": "https://www.neststyleanddesign.com",
+      "city": "South Jordan",
+      "channel": "email",
+      "notes": "Interior design firm"
+    },
+    {
+      "company": "Brozwood HVAC",
+      "phone": "385-396-7105",
+      "email": "brozwood.hvac@gmail.com",
+      "website": "https://www.brozwood.com",
+      "city": "Herriman",
+      "channel": "phone",
+      "notes": "South valley HVAC residential"
+    },
+    {
+      "company": "Lake Hazel Design",
+      "phone": "801-623-3236",
+      "email": "info@lakehazeldesign.com",
+      "website": "https://lakehazeldesign.com",
+      "city": "South Jordan",
+      "channel": "phone",
+      "notes": "Interior design HBA member"
+    },
+    {
+      "company": "Three Peak Construction",
+      "phone": "435-214-1669",
+      "email": "hermes@threepeakconstruction.com",
+      "website": "https://threepeakconstruction.com",
+      "city": "Bluffdale",
+      "channel": "phone",
+      "notes": "Remodel/additions — bedroom projects"
+    }
+  ]
+}

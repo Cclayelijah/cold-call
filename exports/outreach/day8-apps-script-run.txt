@@ -1,0 +1,12 @@
+# Day 8 → Zoho in ~2 minutes (Apps Script editor)
+
+No Hostinger. No web app deploy required.
+
+1. Open the existing Calendar → Zoho project at script.google.com
+2. Add file PartnerOutreach — paste /opt/cursor/artifacts/PartnerOutreach.gs.txt
+3. Add file Day8PartnerUpload — paste /opt/cursor/artifacts/Day8PartnerUpload.gs.txt
+4. Select function runDay8PartnerOutreachUpload → Run → Approve if asked
+5. In Zoho CRM → Leads: confirm 10 leads with Lead Source = Partner Outreach
+6. Dial from /opt/cursor/artifacts/day8-offline.html
+
+If Lead Source is rejected, add picklist value "Partner Outreach" once, then Run again.

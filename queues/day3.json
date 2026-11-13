@@ -1,0 +1,127 @@
+{
+  "day": 3,
+  "generatedAt": "2026-11-12T18:20:00-07:00",
+  "timezone": "America/Denver",
+  "leads": [
+    {
+      "company": "Andrus Plumbing Inc.",
+      "city": "Riverton",
+      "phone": "801-243-6434",
+      "email": "andrusplumbing@gmail.com",
+      "website": "https://www.andrusplumbinginc.com/",
+      "name": "",
+      "channel": "phone",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Owner-operated; softeners + remodels — call owner directly"
+    },
+    {
+      "company": "RG Plumbing Inc.",
+      "city": "South Jordan",
+      "phone": "801-446-0520",
+      "email": "rgplumbinginc@gmail.com",
+      "website": "https://plumbingsouthjordanutah.com/",
+      "name": "",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Local since 1985; south valley coverage"
+    },
+    {
+      "company": "Neighborly Plumbing",
+      "city": "Herriman / Sandy",
+      "phone": "801-300-4504",
+      "email": "info@neighborlyplumbingslc.com",
+      "website": "https://neighborlyplumbingslc.com/",
+      "name": "",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Sewer/drain + water heaters; Herriman growth corridor"
+    },
+    {
+      "company": "AC Plumbing Inc.",
+      "city": "Riverton",
+      "phone": "801-421-4942",
+      "email": "austinbath@acplumbinginc.com",
+      "website": "https://acplumbinginc.com/",
+      "name": "Austin",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "New construction + filtration; HQ Riverton"
+    },
+    {
+      "company": "Resolute Heating & Air",
+      "city": "West Jordan",
+      "phone": "801-970-5797",
+      "email": "travis@resoluteair.com",
+      "website": "https://resoluteair.com/",
+      "name": "Travis",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Owner Travis answers directly — strong ICP"
+    },
+    {
+      "company": "Exclusive Air Systems",
+      "city": "Draper",
+      "phone": "801-501-0501",
+      "email": "info@exclusiveairsystems.com",
+      "website": "https://exclusiveairsystems.com/",
+      "name": "",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Custom-home HVAC HQ in Draper since 1981"
+    },
+    {
+      "company": "North Star Heating & Air Conditioning",
+      "city": "West Jordan",
+      "phone": "385-438-3332",
+      "email": "customers@northstarheatingandairutah.com",
+      "website": "https://northstarheatingandairutah.com/",
+      "name": "",
+      "channel": "phone",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Family-owned; West Jordan + Lehi + Sandy offices"
+    },
+    {
+      "company": "Cody Beal Interior Design",
+      "city": "Salt Lake City",
+      "phone": "801-901-8747",
+      "email": "info@codybeal.com",
+      "website": "https://www.codybeal.com/",
+      "name": "",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Full-service residential design studio on West Temple"
+    },
+    {
+      "company": "The Interior Motive Design",
+      "city": "Salt Lake City",
+      "phone": "801-918-4771",
+      "email": "jen@theinteriormotivedesign.com",
+      "website": "https://www.theinteriormotivedesign.com/",
+      "name": "Jen",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Named contact Jen — design ICP"
+    },
+    {
+      "company": "Utah Soft Water (Flush Pros)",
+      "city": "Lehi / Saratoga Springs",
+      "phone": "801-901-3727",
+      "email": "flushprosut@gmail.com",
+      "website": "https://utahsoftwater.com/",
+      "name": "",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Water treatment near Saratoga Springs hard-water homes"
+    }
+  ]
+}

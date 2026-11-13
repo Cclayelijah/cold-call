@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="robots" content="noindex"/>
+<title>Day 1 — Partner Outreach Tonight</title>
+<style>
+:root { --ink:#1c1914; --teal:#0b3d4a; --paper:#f7f3ea; --line:#d9d2c4; }
+body { margin:0; font:16px/1.45 Georgia, "Iowan Old Style", serif; color:var(--ink); background:linear-gradient(180deg,#efe8da,#f7f3ea 40%); }
+main { max-width:640px; margin:0 auto; padding:20px 16px 64px; }
+h1 { font-size:1.6rem; margin:0 0 .4rem; }
+.lead { color:#444; margin:0 0 1rem; }
+.btn, .copy { display:inline-block; background:var(--teal); color:#fff; border:0; text-decoration:none; padding:12px 14px; border-radius:8px; font:600 15px system-ui,sans-serif; margin:6px 8px 6px 0; cursor:pointer; }
+.copy { background:#5a6b70; }
+.card { border-top:1px solid var(--line); padding:1rem 0 1.2rem; }
+.tag { font:600 11px system-ui,sans-serif; background:#0b3d4a; color:#fff; padding:2px 6px; border-radius:4px; vertical-align:middle; }
+.meta { font:14px/1.4 system-ui,sans-serif; color:#555; }
+pre { white-space:pre-wrap; background:#fff; border:1px solid var(--line); padding:10px; font:13px/1.4 ui-monospace,monospace; }
+.sticky { position:sticky; top:0; background:rgba(247,243,234,.95); backdrop-filter:blur(6px); padding:10px 0; border-bottom:1px solid var(--line); z-index:2; }
+.done { opacity:.55; }
+label.chk { font:14px system-ui,sans-serif; display:flex; gap:8px; align-items:flex-start; margin:.4rem 0; }
+</style>
+</head>
+<body>
+<main>
+  <div class="sticky">
+    <h1>Day 1 · send tonight</h1>
+    <p class="lead">CRM first (Lead Source = Partner Outreach), then conversations.</p>
+    <button type="button" class="btn" id="dl">Download Zoho CSV</button>
+    <a class="btn" style="background:#5a6b70" href="./day1-vcards/day1-all.vcf">Add contacts (vCard)</a>
+    <span id="progress" style="font:600 14px system-ui">0/7</span>
+  </div>
+
+  <section class="card">
+    <h2>0. Import to Zoho</h2>
+    <p class="meta">Leads → Import → map Lead Source to <strong>Partner Outreach</strong> (not Web Download).</p>
+    <label class="chk"><input type="checkbox" data-k="crm"/> CSV imported · Sharp Water shows as Partner Outreach</label>
+  </section>
+
+  
+<section class="card" id="p1">
+  <h2>1. Sharp Water Solutions <span class="tag">TEXT</span></h2>
+  <p class="meta">801-233-3325 · info@sharpwatersolutions.com<br/>Warm SMS thread open; start here</p>
+  <a class="btn" href="sms:+18012333325?body=Hi%20%E2%80%94%20not%20a%20service%20request.%20I%27m%20with%20Saratoga%20Mattresses%20%28SLC%20showroom%29.%20Looking%20for%20the%20owner/office%20manager%20about%20a%20simple%20local%20referral%20partnership%3A%20your%20customers%20get%20a%20mattress%20discount%20code%2C%20you%20earn%2010%25%20when%20they%20buy.%20Who%27s%20best%20for%20that%3F">Open SMS</a>
+  <button type="button" class="copy">Copy script</button>
+  <pre>Hi — not a service request. I&#x27;m with Saratoga Mattresses (SLC showroom). Looking for the owner/office manager about a simple local referral partnership: your customers get a mattress discount code, you earn 10% when they buy. Who&#x27;s best for that?</pre>
+</section>
+<section class="card" id="p2">
+  <h2>2. Legends Mechanical <span class="tag">EMAIL</span></h2>
+  <p class="meta">801-599-8563 · scott@legendsmechanical.com<br/>Partner Scott Carpenter; HVAC — email tonight, phone Fri if no reply</p>
+  <a class="btn" href="mailto:scott%40legendsmechanical.com?subject=Local%20referral%20partnership%20%E2%80%94%20Saratoga%20Mattresses%20%2810%25%20partner%20earn%29&body=Hi%20Scott%2C%0A%0AI%27m%20Elijah%20with%20Saratoga%20Mattresses%20%28showroom%20at%203510%20S%20300%20W%2C%20Salt%20Lake%20City%29.%20We%20run%20a%20simple%20partner%20program%20for%20local%20home-service%20and%20design%20businesses%20whose%20teams%20are%20already%20in%20customers%27%20homes.%0A%0AHow%20it%20works%3A%0A%E2%80%A2%20You%20get%20a%20unique%20discount%20code%20%2B%20printable%20flyers%0A%E2%80%A2%20Your%20customer%20gets%2010%25%20off%20a%20qualifying%20mattress%20in%20our%20showroom%0A%E2%80%A2%20You%20earn%2010%25%20of%20the%20mattress%20subtotal%20after%20that%20discount%20%28not%20tax/delivery%29%0A%E2%80%A2%20Track%20earnings%20at%20partner.saratogamattresses.com%0A%0AWould%20you%20be%20open%20to%20a%2010-minute%20call%20this%20week%2C%20or%20should%20I%20drop%20a%20sample%20flyer%20by%20your%20office%3F%0A%0AThanks%2C%0AElijah%20Cannon%0ASaratoga%20Mattresses%0A801-643-1098%20%C2%B7%20contact%40saratogamattresses.com%0Ahttps%3A//partner.saratogamattresses.com/">Open email</a>
+  <button type="button" class="copy">Copy script</button>
+  <pre>Subject: Local referral partnership — Saratoga Mattresses (10% partner earn)
+
+Hi Scott,
+
+I&#x27;m Elijah with Saratoga Mattresses (showroom at 3510 S 300 W, Salt Lake City). We run a simple partner program for local home-service and design businesses whose teams are already in customers&#x27; homes.
+
+How it works:
+• You get a unique discount code + printable flyers
+• Your customer gets 10% off a qualifying mattress in our showroom
+• You earn 10% of the mattress subtotal after that discount (not tax/delivery)
+• Track earnings at partner.saratogamattresses.com
+
+Would you be open to a 10-minute call this week, or should I drop a sample flyer by your office?
+
+Thanks,
+Elijah Cannon
+Saratoga Mattresses
+801-643-1098 · contact@saratogamattresses.com
+https://partner.saratogamattresses.com/</pre>
+</section>
+<section class="card" id="p3">
+  <h2>3. Big Rock Plumbing &amp; HVAC <span class="tag">EMAIL</span></h2>
+  <p class="meta">801-565-5855 · office@bigrockplumbing.com<br/>Named contact Adam; new construction plumbing/HVAC — email tonight</p>
+  <a class="btn" href="mailto:office%40bigrockplumbing.com?subject=Local%20referral%20partnership%20%E2%80%94%20Saratoga%20Mattresses%20%2810%25%20partner%20earn%29&body=Hi%20Adam%2C%0A%0AI%27m%20Elijah%20with%20Saratoga%20Mattresses%20%28showroom%20at%203510%20S%20300%20W%2C%20Salt%20Lake%20City%29.%20We%20run%20a%20simple%20partner%20program%20for%20local%20home-service%20and%20design%20businesses%20whose%20teams%20are%20already%20in%20customers%27%20homes.%0A%0AHow%20it%20works%3A%0A%E2%80%A2%20You%20get%20a%20unique%20discount%20code%20%2B%20printable%20flyers%0A%E2%80%A2%20Your%20customer%20gets%2010%25%20off%20a%20qualifying%20mattress%20in%20our%20showroom%0A%E2%80%A2%20You%20earn%2010%25%20of%20the%20mattress%20subtotal%20after%20that%20discount%20%28not%20tax/delivery%29%0A%E2%80%A2%20Track%20earnings%20at%20partner.saratogamattresses.com%0A%0AWould%20you%20be%20open%20to%20a%2010-minute%20call%20this%20week%2C%20or%20should%20I%20drop%20a%20sample%20flyer%20by%20your%20office%3F%0A%0AThanks%2C%0AElijah%20Cannon%0ASaratoga%20Mattresses%0A801-643-1098%20%C2%B7%20contact%40saratogamattresses.com%0Ahttps%3A//partner.saratogamattresses.com/">Open email</a>
+  <button type="button" class="copy">Copy script</button>
+  <pre>Subject: Local referral partnership — Saratoga Mattresses (10% partner earn)
+
+Hi Adam,
+
+I&#x27;m Elijah with Saratoga Mattresses (showroom at 3510 S 300 W, Salt Lake City). We run a simple partner program for local home-service and design businesses whose teams are already in customers&#x27; homes.
+
+How it works:
+• You get a unique discount code + printable flyers
+• Your customer gets 10% off a qualifying mattress in our showroom
+• You earn 10% of the mattress subtotal after that discount (not tax/delivery)
+• Track earnings at partner.saratogamattresses.com
+
+Would you be open to a 10-minute call this week, or should I drop a sample flyer by your office?
+
+Thanks,
+Elijah Cannon
+Saratoga Mattresses
+801-643-1098 · contact@saratogamattresses.com
+https://partner.saratogamattresses.com/</pre>
+</section>
+<section class="card" id="p4">
+  <h2>4. Daisy Maids <span class="tag">EMAIL</span></h2>
+  <p class="meta">801-955-8228 · info@daisymaids.com<br/>Cleaning crews; move-in moments</p>
+  <a class="btn" href="mailto:info%40daisymaids.com?subject=Local%20referral%20partnership%20%E2%80%94%20Saratoga%20Mattresses%20%2810%25%20partner%20earn%29&body=Hi%20team%2C%0A%0AI%27m%20Elijah%20with%20Saratoga%20Mattresses%20%28showroom%20at%203510%20S%20300%20W%2C%20Salt%20Lake%20City%29.%20We%20run%20a%20simple%20partner%20program%20for%20local%20home-service%20and%20design%20businesses%20whose%20teams%20are%20already%20in%20customers%27%20homes.%0A%0AHow%20it%20works%3A%0A%E2%80%A2%20You%20get%20a%20unique%20discount%20code%20%2B%20printable%20flyers%0A%E2%80%A2%20Your%20customer%20gets%2010%25%20off%20a%20qualifying%20mattress%20in%20our%20showroom%0A%E2%80%A2%20You%20earn%2010%25%20of%20the%20mattress%20subtotal%20after%20that%20discount%20%28not%20tax/delivery%29%0A%E2%80%A2%20Track%20earnings%20at%20partner.saratogamattresses.com%0A%0AWould%20you%20be%20open%20to%20a%2010-minute%20call%20this%20week%2C%20or%20should%20I%20drop%20a%20sample%20flyer%20by%20your%20office%3F%0A%0AThanks%2C%0AElijah%20Cannon%0ASaratoga%20Mattresses%0A801-643-1098%20%C2%B7%20contact%40saratogamattresses.com%0Ahttps%3A//partner.saratogamattresses.com/">Open email</a>
+  <button type="button" class="copy">Copy script</button>
+  <pre>Subject: Local referral partnership — Saratoga Mattresses (10% partner earn)
+
+Hi team,
+
+I&#x27;m Elijah with Saratoga Mattresses (showroom at 3510 S 300 W, Salt Lake City). We run a simple partner program for local home-service and design businesses whose teams are already in customers&#x27; homes.
+
+How it works:
+• You get a unique discount code + printable flyers
+• Your customer gets 10% off a qualifying mattress in our showroom
+• You earn 10% of the mattress subtotal after that discount (not tax/delivery)
+• Track earnings at partner.saratogamattresses.com
+
+Would you be open to a 10-minute call this week, or should I drop a sample flyer by your office?
+
+Thanks,
+Elijah Cannon
+Saratoga Mattresses
+801-643-1098 · contact@saratogamattresses.com
+https://partner.saratogamattresses.com/</pre>
+</section>
+<section class="card" id="p5">
+  <h2>5. Berli B Design <span class="tag">EMAIL</span></h2>
+  <p class="meta">801-550-0594 · kimbench@me.com<br/>Interior design</p>
+  <a class="btn" href="mailto:kimbench%40me.com?subject=Local%20referral%20partnership%20%E2%80%94%20Saratoga%20Mattresses%20%2810%25%20partner%20earn%29&body=Hi%20Kim%2C%0A%0AI%27m%20Elijah%20with%20Saratoga%20Mattresses%20%28showroom%20at%203510%20S%20300%20W%2C%20Salt%20Lake%20City%29.%20We%20run%20a%20simple%20partner%20program%20for%20local%20home-service%20and%20design%20businesses%20whose%20teams%20are%20already%20in%20customers%27%20homes.%0A%0AHow%20it%20works%3A%0A%E2%80%A2%20You%20get%20a%20unique%20discount%20code%20%2B%20printable%20flyers%0A%E2%80%A2%20Your%20customer%20gets%2010%25%20off%20a%20qualifying%20mattress%20in%20our%20showroom%0A%E2%80%A2%20You%20earn%2010%25%20of%20the%20mattress%20subtotal%20after%20that%20discount%20%28not%20tax/delivery%29%0A%E2%80%A2%20Track%20earnings%20at%20partner.saratogamattresses.com%0A%0AWould%20you%20be%20open%20to%20a%2010-minute%20call%20this%20week%2C%20or%20should%20I%20drop%20a%20sample%20flyer%20by%20your%20office%3F%0A%0AThanks%2C%0AElijah%20Cannon%0ASaratoga%20Mattresses%0A801-643-1098%20%C2%B7%20contact%40saratogamattresses.com%0Ahttps%3A//partner.saratogamattresses.com/">Open email</a>
+  <button type="button" class="copy">Copy script</button>
+  <pre>Subject: Local referral partnership — Saratoga Mattresses (10% partner earn)
+
+Hi Kim,
+
+I&#x27;m Elijah with Saratoga Mattresses (showroom at 3510 S 300 W, Salt Lake City). We run a simple partner program for local home-service and design businesses whose teams are already in customers&#x27; homes.
+
+How it works:
+• You get a unique discount code + printable flyers
+• Your customer gets 10% off a qualifying mattress in our showroom
+• You earn 10% of the mattress subtotal after that discount (not tax/delivery)
+• Track earnings at partner.saratogamattresses.com
+
+Would you be open to a 10-minute call this week, or should I drop a sample flyer by your office?
+
+Thanks,
+Elijah Cannon
+Saratoga Mattresses
+801-643-1098 · contact@saratogamattresses.com
+https://partner.saratogamattresses.com/</pre>
+</section>
+<section class="card" id="p6">
+  <h2>6. HomStyl Interior Design <span class="tag">PHONE</span></h2>
+  <p class="meta">801-450-1345 · stefanie@homstyl.com<br/>Ask for Stefanie — call tonight if possible</p>
+  <a class="btn" href="tel:+18014501345">Call now</a>
+  <button type="button" class="copy">Copy script</button>
+  <pre>Hi, this is Elijah with Saratoga Mattresses on 300 West. Quick partnership ask — not a sales call for a job. We give local home-service partners a discount-code flyer. Their customers get 10% off a mattress in our showroom; the partner earns 10% of that discounted subtotal. No inventory on your side. Is the owner or office manager available for 2 minutes, or should I drop a one-pager by email?</pre>
+</section>
+
+  <section class="card">
+    <h2>Friday 9am MT — phone</h2>
+    <ul><li><a href="tel:+18018569671">NuWater Technologies</a> — 801-856-9671</li><li><a href="tel:+18013830880">Element Water and Air</a> — 801-383-0880</li><li><a href="tel:+18016794266">Glover Services</a> — 801-679-4266</li><li><a href="tel:+18012808812">Hansen HVAC &amp; Plumbing</a> — 801-280-8812</li></ul>
+  </section>
+</main>
+<script>
+const CSV_B64 = "Q29tcGFueSxGaXJzdCBOYW1lLExhc3QgTmFtZSxFbWFpbCxQaG9uZSxXZWJzaXRlLENpdHksTGVhZCBTb3VyY2UsTGVhZCBTdGF0dXMsRGVzY3JpcHRpb24KU2hhcnAgV2F0ZXIgU29sdXRpb25zLCxTaGFycCBXYXRlciBTb2x1dGlvbnMsaW5mb0BzaGFycHdhdGVyc29sdXRpb25zLmNvbSw4MDEtMjMzLTMzMjUsaHR0cHM6Ly93d3cuc2hhcnB3YXRlcnNvbHV0aW9ucy5jb20sQmx1ZmZkYWxlLFBhcnRuZXIgT3V0cmVhY2gsTm90IENvbnRhY3RlZCwiUGFydG5lciBvdXRyZWFjaCBwcm9zcGVjdCDigJQgU2FsdCBMYWtlIENpdHkgYXJlYQpDb21wYW55OiBTaGFycCBXYXRlciBTb2x1dGlvbnMKQ2l0eS9hcmVhOiBCbHVmZmRhbGUKUmVjb21tZW5kZWQgY2hhbm5lbDogdGV4dApXZWJzaXRlOiBodHRwczovL3d3dy5zaGFycHdhdGVyc29sdXRpb25zLmNvbQpPdXRyZWFjaCBub3RlczoKV2FybSBTTVMgdGhyZWFkIG9wZW47IHN0YXJ0IGhlcmUiCkVsZW1lbnQgV2F0ZXIgYW5kIEFpciwsRWxlbWVudCBXYXRlciBhbmQgQWlyLHN1cHBvcnRAZWxlbWVudHdhdGVyYW5kYWlyLmNvbSw4MDEtMzgzLTA4ODAsaHR0cHM6Ly9lbGVtZW50d2F0ZXJhbmRhaXIuY29tLFNhcmF0b2dhIFNwcmluZ3MsUGFydG5lciBPdXRyZWFjaCxOb3QgQ29udGFjdGVkLCJQYXJ0bmVyIG91dHJlYWNoIHByb3NwZWN0IOKAlCBTYWx0IExha2UgQ2l0eSBhcmVhCkNvbXBhbnk6IEVsZW1lbnQgV2F0ZXIgYW5kIEFpcgpDaXR5L2FyZWE6IFNhcmF0b2dhIFNwcmluZ3MKUmVjb21tZW5kZWQgY2hhbm5lbDogcGhvbmUKV2Vic2l0ZTogaHR0cHM6Ly9lbGVtZW50d2F0ZXJhbmRhaXIuY29tCk91dHJlYWNoIG5vdGVzOgpMb2NhbCBicmFuZCBvdmVybGFwIgpOdVdhdGVyIFRlY2hub2xvZ2llcywsTnVXYXRlciBUZWNobm9sb2dpZXMsYnJhZEBudXdhdGVydGVjLmNvbSw4MDEtODU2LTk2NzEsaHR0cHM6Ly93d3cubnV3YXRlcnV0YWguY29tLFNvdXRoIEpvcmRhbixQYXJ0bmVyIE91dHJlYWNoLE5vdCBDb250YWN0ZWQsIlBhcnRuZXIgb3V0cmVhY2ggcHJvc3BlY3Qg4oCUIFNhbHQgTGFrZSBDaXR5IGFyZWEKQ29tcGFueTogTnVXYXRlciBUZWNobm9sb2dpZXMKQ2l0eS9hcmVhOiBTb3V0aCBKb3JkYW4KUmVjb21tZW5kZWQgY2hhbm5lbDogcGhvbmUKV2Vic2l0ZTogaHR0cHM6Ly93d3cubnV3YXRlcnV0YWguY29tCk91dHJlYWNoIG5vdGVzOgpBc2sgZm9yIEJyYWQgQ2FzcGVyIgpHbG92ZXIgU2VydmljZXMsLEdsb3ZlciBTZXJ2aWNlcyxtcGdsb3ZlckBnb2dsb3Zlci5jb20sODAxLTY3OS00MjY2LGh0dHBzOi8vd3d3LmdvZ2xvdmVyLmNvbSxCbHVmZmRhbGUsUGFydG5lciBPdXRyZWFjaCxOb3QgQ29udGFjdGVkLCJQYXJ0bmVyIG91dHJlYWNoIHByb3NwZWN0IOKAlCBTYWx0IExha2UgQ2l0eSBhcmVhCkNvbXBhbnk6IEdsb3ZlciBTZXJ2aWNlcwpDaXR5L2FyZWE6IEJsdWZmZGFsZQpSZWNvbW1lbmRlZCBjaGFubmVsOiBwaG9uZQpXZWJzaXRlOiBodHRwczovL3d3dy5nb2dsb3Zlci5jb20KT3V0cmVhY2ggbm90ZXM6Ck11bHRpLXRyYWRlIGZhY2lsaXR5L2hvbWUgc2VydmljZXMiCkxlZ2VuZHMgTWVjaGFuaWNhbCxTY290dCxDYXJwZW50ZXIsc2NvdHRAbGVnZW5kc21lY2hhbmljYWwuY29tLDgwMS01OTktODU2MyxodHRwczovL2xlZ2VuZHNtZWNoYW5pY2FsLmNvbSxTYWx0IExha2UgYXJlYSxQYXJ0bmVyIE91dHJlYWNoLE5vdCBDb250YWN0ZWQsIlBhcnRuZXIgb3V0cmVhY2ggcHJvc3BlY3Qg4oCUIFNhbHQgTGFrZSBDaXR5IGFyZWEKQ29tcGFueTogTGVnZW5kcyBNZWNoYW5pY2FsCkNpdHkvYXJlYTogU2FsdCBMYWtlIGFyZWEKUmVjb21tZW5kZWQgY2hhbm5lbDogZW1haWwKV2Vic2l0ZTogaHR0cHM6Ly9sZWdlbmRzbWVjaGFuaWNhbC5jb20KT3V0cmVhY2ggbm90ZXM6ClBhcnRuZXIgU2NvdHQgQ2FycGVudGVyOyBIVkFDIOKAlCBlbWFpbCB0b25pZ2h0LCBwaG9uZSBGcmkgaWYgbm8gcmVwbHkiCkJpZyBSb2NrIFBsdW1iaW5nICYgSFZBQyxBZGFtLEJpZyBSb2NrIFBsdW1iaW5nICYgSFZBQyxvZmZpY2VAYmlncm9ja3BsdW1iaW5nLmNvbSw4MDEtNTY1LTU4NTUsaHR0cHM6Ly9iaWdyb2NrcGx1bWJpbmcuY29tLFNhbmR5LFBhcnRuZXIgT3V0cmVhY2gsTm90IENvbnRhY3RlZCwiUGFydG5lciBvdXRyZWFjaCBwcm9zcGVjdCDigJQgU2FsdCBMYWtlIENpdHkgYXJlYQpDb21wYW55OiBCaWcgUm9jayBQbHVtYmluZyAmIEhWQUMKQ2l0eS9hcmVhOiBTYW5keQpSZWNvbW1lbmRlZCBjaGFubmVsOiBlbWFpbApXZWJzaXRlOiBodHRwczovL2JpZ3JvY2twbHVtYmluZy5jb20KT3V0cmVhY2ggbm90ZXM6Ck5hbWVkIGNvbnRhY3QgQWRhbTsgbmV3IGNvbnN0cnVjdGlvbiBwbHVtYmluZy9IVkFDIOKAlCBlbWFpbCB0b25pZ2h0IgpIYW5zZW4gSFZBQyAmIFBsdW1iaW5nLCxIYW5zZW4gSFZBQyAmIFBsdW1iaW5nLGluZm9AaGFuc2VuaHZhY3NlcnZpY2VzLmNvbSw4MDEtMjgwLTg4MTIsaHR0cHM6Ly9oYW5zZW5odmFjc2VydmljZXMuY29tLFdlc3QgSm9yZGFuLFBhcnRuZXIgT3V0cmVhY2gsTm90IENvbnRhY3RlZCwiUGFydG5lciBvdXRyZWFjaCBwcm9zcGVjdCDigJQgU2FsdCBMYWtlIENpdHkgYXJlYQpDb21wYW55OiBIYW5zZW4gSFZBQyAmIFBsdW1iaW5nCkNpdHkvYXJlYTogV2VzdCBKb3JkYW4KUmVjb21tZW5kZWQgY2hhbm5lbDogcGhvbmUKV2Vic2l0ZTogaHR0cHM6Ly9oYW5zZW5odmFjc2VydmljZXMuY29tCk91dHJlYWNoIG5vdGVzOgpSZXNpZGVudGlhbCBIVkFDL3BsdW1iaW5nIgpEYWlzeSBNYWlkcywsRGFpc3kgTWFpZHMsaW5mb0BkYWlzeW1haWRzLmNvbSw4MDEtOTU1LTgyMjgsaHR0cHM6Ly93d3cuZGFpc3ltYWlkcy5jb20sU2FsdCBMYWtlIENvdW50eSxQYXJ0bmVyIE91dHJlYWNoLE5vdCBDb250YWN0ZWQsIlBhcnRuZXIgb3V0cmVhY2ggcHJvc3BlY3Qg4oCUIFNhbHQgTGFrZSBDaXR5IGFyZWEKQ29tcGFueTogRGFpc3kgTWFpZHMKQ2l0eS9hcmVhOiBTYWx0IExha2UgQ291bnR5ClJlY29tbWVuZGVkIGNoYW5uZWw6IGVtYWlsCldlYnNpdGU6IGh0dHBzOi8vd3d3LmRhaXN5bWFpZHMuY29tCk91dHJlYWNoIG5vdGVzOgpDbGVhbmluZyBjcmV3czsgbW92ZS1pbiBtb21lbnRzIgpCZXJsaSBCIERlc2lnbixLaW0sQmVuY2gsa2ltYmVuY2hAbWUuY29tLDgwMS01NTAtMDU5NCxodHRwczovL3d3dy5iZXJsaWJkZXNpZ24uY29tLERyYXBlcixQYXJ0bmVyIE91dHJlYWNoLE5vdCBDb250YWN0ZWQsIlBhcnRuZXIgb3V0cmVhY2ggcHJvc3BlY3Qg4oCUIFNhbHQgTGFrZSBDaXR5IGFyZWEKQ29tcGFueTogQmVybGkgQiBEZXNpZ24KQ2l0eS9hcmVhOiBEcmFwZXIKUmVjb21tZW5kZWQgY2hhbm5lbDogZW1haWwKV2Vic2l0ZTogaHR0cHM6Ly93d3cuYmVybGliZGVzaWduLmNvbQpPdXRyZWFjaCBub3RlczoKSW50ZXJpb3IgZGVzaWduIgpIb21TdHlsIEludGVyaW9yIERlc2lnbixTdGVmYW5pZSxIb21TdHlsIEludGVyaW9yIERlc2lnbixzdGVmYW5pZUBob21zdHlsLmNvbSw4MDEtNDUwLTEzNDUsaHR0cHM6Ly9ob21zdHlsLmNvbSxTb3V0aCBKb3JkYW4sUGFydG5lciBPdXRyZWFjaCxOb3QgQ29udGFjdGVkLCJQYXJ0bmVyIG91dHJlYWNoIHByb3NwZWN0IOKAlCBTYWx0IExha2UgQ2l0eSBhcmVhCkNvbXBhbnk6IEhvbVN0eWwgSW50ZXJpb3IgRGVzaWduCkNpdHkvYXJlYTogU291dGggSm9yZGFuClJlY29tbWVuZGVkIGNoYW5uZWw6IHBob25lCldlYnNpdGU6IGh0dHBzOi8vaG9tc3R5bC5jb20KT3V0cmVhY2ggbm90ZXM6CkFzayBmb3IgU3RlZmFuaWUg4oCUIGNhbGwgdG9uaWdodCBpZiBwb3NzaWJsZSIK";
+document.getElementById('dl').onclick = () => {
+  const bin = atob(CSV_B64);
+  const bytes = new Uint8Array(bin.length);
+  for (let i=0;i<bin.length;i++) bytes[i]=bin.charCodeAt(i);
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([bytes], {type:'text/csv'}));
+  a.download = 'day1-zoho-leads-import.csv';
+  a.click();
+};
+const KEY='sm-day1-tonight-v2';
+const store = JSON.parse(localStorage.getItem(KEY)||'{}');
+function sync() {
+  let n=0; document.querySelectorAll('input[data-k]').forEach(el=>{ if(el.checked) n++; });
+  document.getElementById('progress').textContent = n+'/7';
+}
+document.querySelectorAll('input[data-k]').forEach(el=>{
+  el.checked = !!store[el.dataset.k];
+  el.onchange = () => { store[el.dataset.k]=el.checked; localStorage.setItem(KEY, JSON.stringify(store)); sync(); };
+});
+// add checkboxes for each prospect
+document.querySelectorAll('section.card[id^=p]').forEach(sec=>{
+  const k = sec.id;
+  const lab = document.createElement('label');
+  lab.className='chk';
+  lab.innerHTML = '<input type="checkbox" data-k="'+k+'"/> Sent / dialed';
+  const inp = lab.querySelector('input');
+  inp.checked = !!store[k];
+  inp.onchange = () => { store[k]=inp.checked; localStorage.setItem(KEY, JSON.stringify(store)); sec.classList.toggle('done', inp.checked); sync(); };
+  sec.classList.toggle('done', inp.checked);
+  sec.appendChild(lab);
+});
+sync();
+document.querySelectorAll('button.copy').forEach(btn=>{
+  btn.onclick = async () => {
+    try { await navigator.clipboard.writeText(btn.getAttribute('data-copy')); btn.textContent='Copied'; setTimeout(()=>btn.textContent='Copy script',1200); }
+    catch(e) { btn.textContent='Select text below'; }
+  };
+});
+</script>
+</body>
+</html>

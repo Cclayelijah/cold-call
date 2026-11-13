@@ -1,0 +1,43 @@
+name: Zoho Partner Outreach upsert
+
+on:
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Queue day to upsert (1–5)"
+        required: true
+        default: "1"
+        type: choice
+        options:
+          - "1"
+          - "2"
+          - "3"
+          - "4"
+          - "5"
+
+jobs:
+  upsert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Upsert Partner Outreach leads to Zoho
+        env:
+          ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
+          ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
+          ZOHO_REFRESH_TOKEN: ${{ secrets.ZOHO_REFRESH_TOKEN }}
+          ZOHO_ACCOUNTS_URL: ${{ secrets.ZOHO_ACCOUNTS_URL }}
+          ZOHO_API_BASE: ${{ secrets.ZOHO_API_BASE }}
+        run: |
+          set -euo pipefail
+          if [ -z "${ZOHO_CLIENT_ID:-}" ] || [ -z "${ZOHO_CLIENT_SECRET:-}" ] || [ -z "${ZOHO_REFRESH_TOKEN:-}" ]; then
+            echo "::error::Add repository secrets ZOHO_CLIENT_ID, ZOHO_CLIENT_SECRET, ZOHO_REFRESH_TOKEN (Settings → Secrets → Actions)."
+            exit 1
+          fi
+          node scripts/zoho-partner-upsert.mjs "exports/day${{ inputs.day }}-partner-outreach-payload.json"
