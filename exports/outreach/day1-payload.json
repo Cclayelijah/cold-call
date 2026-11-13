@@ -1,0 +1,100 @@
+{
+  "day": 1,
+  "generatedAt": "2026-11-12T17:45:00-07:00",
+  "leads": [
+    {
+      "company": "Sharp Water Solutions",
+      "phone": "801-233-3325",
+      "email": "info@sharpwatersolutions.com",
+      "website": "https://www.sharpwatersolutions.com",
+      "city": "Bluffdale",
+      "channel": "text",
+      "notes": "Warm SMS thread open; start here"
+    },
+    {
+      "company": "Element Water and Air",
+      "phone": "801-383-0880",
+      "email": "support@elementwaterandair.com",
+      "website": "https://elementwaterandair.com",
+      "city": "Saratoga Springs",
+      "channel": "phone",
+      "notes": "Local brand overlap"
+    },
+    {
+      "company": "NuWater Technologies",
+      "phone": "801-856-9671",
+      "email": "brad@nuwatertec.com",
+      "website": "https://www.nuwaterutah.com",
+      "city": "South Jordan",
+      "channel": "phone",
+      "notes": "Ask for Brad Casper"
+    },
+    {
+      "company": "Glover Services",
+      "phone": "801-679-4266",
+      "email": "mpglover@goglover.com",
+      "website": "https://www.goglover.com",
+      "city": "Bluffdale",
+      "channel": "phone",
+      "notes": "Multi-trade facility/home services"
+    },
+    {
+      "company": "Legends Mechanical",
+      "name": "Scott Carpenter",
+      "phone": "801-599-8563",
+      "email": "scott@legendsmechanical.com",
+      "website": "https://legendsmechanical.com",
+      "city": "Salt Lake area",
+      "channel": "email",
+      "notes": "Partner Scott Carpenter; HVAC — email tonight, phone Fri if no reply"
+    },
+    {
+      "company": "Big Rock Plumbing & HVAC",
+      "name": "Adam",
+      "phone": "801-565-5855",
+      "email": "office@bigrockplumbing.com",
+      "website": "https://bigrockplumbing.com",
+      "city": "Sandy",
+      "channel": "email",
+      "notes": "Named contact Adam; new construction plumbing/HVAC — email tonight"
+    },
+    {
+      "company": "Hansen HVAC & Plumbing",
+      "phone": "801-280-8812",
+      "email": "info@hansenhvacservices.com",
+      "website": "https://hansenhvacservices.com",
+      "city": "West Jordan",
+      "channel": "phone",
+      "notes": "Residential HVAC/plumbing"
+    },
+    {
+      "company": "Daisy Maids",
+      "phone": "801-955-8228",
+      "email": "info@daisymaids.com",
+      "website": "https://www.daisymaids.com",
+      "city": "Salt Lake County",
+      "channel": "email",
+      "notes": "Cleaning crews; move-in moments"
+    },
+    {
+      "company": "Berli B Design",
+      "name": "Kim Bench",
+      "phone": "801-550-0594",
+      "email": "kimbench@me.com",
+      "website": "https://www.berlibdesign.com",
+      "city": "Draper",
+      "channel": "email",
+      "notes": "Interior design"
+    },
+    {
+      "company": "HomStyl Interior Design",
+      "name": "Stefanie",
+      "phone": "801-450-1345",
+      "email": "stefanie@homstyl.com",
+      "website": "https://homstyl.com",
+      "city": "South Jordan",
+      "channel": "phone",
+      "notes": "Ask for Stefanie — call tonight if possible"
+    }
+  ]
+}

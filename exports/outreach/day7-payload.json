@@ -1,0 +1,101 @@
+{
+  "day": 7,
+  "generatedAt": "2026-11-12T20:20:00-07:00",
+  "leads": [
+    {
+      "company": "CertaPro Painters of Salt Lake City",
+      "name": "Eric Denton",
+      "phone": "385-388-3577",
+      "email": "edenton@certapro.com",
+      "website": "https://www.certapro.com",
+      "city": "Salt Lake City",
+      "channel": "email",
+      "notes": "Realtor-network painter; named contact Eric"
+    },
+    {
+      "company": "Handy's Handyman Services",
+      "name": "Tim Leary",
+      "phone": "801-707-5999",
+      "email": "tim@mrhandys.co",
+      "website": "https://mrhandys.co",
+      "city": "Salt Lake City",
+      "channel": "email",
+      "notes": "Handyman recommended by Duo Utah agents"
+    },
+    {
+      "company": "ProLabor Handyman Services",
+      "name": "Garrett Burningham",
+      "phone": "385-770-6527",
+      "email": "garrett@prolaborslc.com",
+      "website": "https://www.prolaborslc.com",
+      "city": "Salt Lake City",
+      "channel": "email",
+      "notes": "Valley handyman / drywall / appliance — owner Garrett"
+    },
+    {
+      "company": "Essential Cleaning Services Utah",
+      "name": "Tamara Jensen",
+      "phone": "801-309-9303",
+      "email": "essentialcleaningservicesutah@gmail.com",
+      "city": "Salt Lake City",
+      "channel": "email",
+      "notes": "Residential cleaning; named contact Tamara"
+    },
+    {
+      "company": "Express Home Services",
+      "name": "Ginger Ferreira",
+      "phone": "801-372-5680",
+      "email": "ginger@callexpress.com",
+      "website": "https://callexpress.com",
+      "city": "Salt Lake City",
+      "channel": "email",
+      "notes": "Home improvement / repairs; contact Ginger"
+    },
+    {
+      "company": "Noble Action Handyman Services",
+      "name": "Jared Fitch",
+      "phone": "385-283-7465",
+      "email": "nobleactionservices@gmail.com",
+      "city": "Salt Lake / Utah County",
+      "channel": "email",
+      "notes": "General repairs / fix-it lists; Jared"
+    },
+    {
+      "company": "A&J Repair & Remodel",
+      "name": "Angie & John Evans",
+      "phone": "385-539-0385",
+      "email": "ajrepairremodel@gmail.com",
+      "city": "Salt Lake Valley",
+      "channel": "email",
+      "notes": "Repairs and small remodels"
+    },
+    {
+      "company": "Protect Environmental",
+      "name": "Tim Sandberg",
+      "phone": "801-598-5253",
+      "email": "tim.sandberg@protectenvironmental.com",
+      "website": "https://protectenvironmental.com",
+      "city": "Salt Lake City",
+      "channel": "email",
+      "notes": "Radon / environmental — adjacent home-service partner fit"
+    },
+    {
+      "company": "Black Diamond Renovation & Repair",
+      "name": "Vince Scuncio",
+      "phone": "385-395-7958",
+      "email": "vince@vincescuncio.com",
+      "city": "Salt Lake City",
+      "channel": "email",
+      "notes": "Renovation & repair; Vince"
+    },
+    {
+      "company": "Mountain Ridge Electric",
+      "name": "Sam Hendon",
+      "phone": "801-604-3209",
+      "email": "mtnridgeelectric@gmail.com",
+      "city": "Salt Lake City",
+      "channel": "email",
+      "notes": "Local electrician; named contact Sam — bedroom remodel adjacency"
+    }
+  ]
+}
