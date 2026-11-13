@@ -1,0 +1,133 @@
+{
+  "day": 5,
+  "generatedAt": "2026-11-12T18:55:00-07:00",
+  "timezone": "America/Denver",
+  "program": "Saratoga Mattresses partner referral (10% commission)",
+  "crm": {
+    "system": "Zoho CRM",
+    "leadSource": "Partner Outreach",
+    "productionStatus": "awaiting_zoho_secrets_or_csv_import"
+  },
+  "leads": [
+    {
+      "company": "Valley Plumbing Heating & Cooling",
+      "city": "West Jordan / Salt Lake City",
+      "phone": "801-341-4222",
+      "email": "account@valleyplumbing.com",
+      "website": "https://www.valleyplumbing.com",
+      "name": "",
+      "channel": "email",
+      "notes": "Large Wasatch Front multi-location HVAC/plumbing — email office, phone if no reply",
+      "status": "ready",
+      "timing": "tonight"
+    },
+    {
+      "company": "EMET Plumbing Heating Air",
+      "city": "Salt Lake City",
+      "phone": "801-433-7354",
+      "email": "emet@emetplumbingservices.com",
+      "website": "https://emetplumbingservices.com",
+      "name": "",
+      "channel": "email",
+      "notes": "Family-owned downtown SLC plumbing/HVAC",
+      "status": "ready",
+      "timing": "tonight"
+    },
+    {
+      "company": "Realize Plumbing & HVAC",
+      "city": "West Valley City",
+      "phone": "801-906-3855",
+      "email": "jeff@realizeplumbing.com",
+      "website": "https://realizeplumbing.com",
+      "name": "Jeff",
+      "channel": "email",
+      "notes": "Named contact Jeff; water softeners + remodel plumbing",
+      "status": "ready",
+      "timing": "tonight"
+    },
+    {
+      "company": "Walton Plumbing Heating & Air",
+      "city": "Salt Lake City",
+      "phone": "801-266-7155",
+      "email": "waltonplumbing@gmail.com",
+      "website": "https://gotplumbingslc.com",
+      "name": "",
+      "channel": "email",
+      "notes": "Long-time SLC HVAC/plumbing; SMS-friendly phone on site",
+      "status": "ready",
+      "timing": "tonight"
+    },
+    {
+      "company": "BC Plumbing and HVAC",
+      "city": "Salt Lake City",
+      "phone": "801-860-4647",
+      "email": "contactus@bcplumbingandhvac.com",
+      "website": "https://bcplumbingandhvac.com",
+      "name": "",
+      "channel": "email",
+      "notes": "25-year SLC plumbing/HVAC; email first",
+      "status": "ready",
+      "timing": "tonight"
+    },
+    {
+      "company": "Eden & Co. Interior Design",
+      "city": "Draper",
+      "phone": "801-833-6850",
+      "email": "hello@edencointeriordesign.com",
+      "website": "https://www.edencointeriordesign.com",
+      "name": "",
+      "channel": "email",
+      "notes": "Hospitality + residential design — strong bedroom/hospitality fit",
+      "status": "ready",
+      "timing": "tonight"
+    },
+    {
+      "company": "Parkway Avenue Design",
+      "city": "Draper",
+      "phone": "801-987-8164",
+      "email": "amy@parkwayavenuedesign.com",
+      "website": "https://www.parkwayavenuedesign.com",
+      "name": "Amy",
+      "channel": "email",
+      "notes": "Ask for Amy; staging + remodel design clients",
+      "status": "ready",
+      "timing": "tonight"
+    },
+    {
+      "company": "Mountain West Interiors",
+      "city": "Draper",
+      "phone": "801-545-4360",
+      "email": "info@mountainwestinteriors.com",
+      "website": "https://mountainwestinteriors.com",
+      "name": "",
+      "channel": "phone",
+      "notes": "Appointment-only showroom — call for owner/manager",
+      "status": "ready",
+      "timing": "friday_9am_mt"
+    },
+    {
+      "company": "Hamilton Park Interiors",
+      "city": "Murray",
+      "phone": "801-892-3444",
+      "email": "",
+      "website": "https://hamiltonparkinteriors.com",
+      "name": "",
+      "channel": "phone",
+      "notes": "Murray design showroom — call/text designers",
+      "status": "ready",
+      "timing": "friday_9am_mt"
+    },
+    {
+      "company": "Home Pride Restoration",
+      "city": "Saratoga Springs",
+      "phone": "801-995-2437",
+      "email": "homepriderestorationut@gmail.com",
+      "website": "https://homepriderestorationandcleaning.com",
+      "name": "",
+      "channel": "phone",
+      "notes": "Post-construction cleaning from Saratoga Springs HQ — brand-name overlap",
+      "status": "ready",
+      "timing": "friday_9am_mt"
+    }
+  ]
+}
