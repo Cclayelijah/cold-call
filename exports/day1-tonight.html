@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow" />
+
 <title>Day 1 Tonight — Partner Outreach</title>
 <style>
 :root { --ink:#1c1914; --teal:#0b3d4a; --sand:#f3eee3; --paper:#fffdf8; }
@@ -202,7 +204,13 @@ https://partner.saratogamattresses.com/</pre>
   <pre>Hi, this is Elijah with Saratoga Mattresses on 300 West. Quick partnership ask — not a sales call for a job. We give local home-service partners a discount-code flyer. Their customers get 10% off a mattress in our showroom; the partner earns 10% of that discounted subtotal. No inventory on your side. Is the owner or office manager available for 2 minutes, or should I email a one-pager?</pre>
 </section>
 <section class="friday"><h2>Friday 9am MT — phone</h2><ul><li><strong>Element Water and Air</strong> — <a href='tel:+18013830880'>801-383-0880</a></li><li><strong>NuWater Technologies</strong> — <a href='tel:+18018569671'>801-856-9671</a></li><li><strong>Glover Services</strong> — <a href='tel:+18016794266'>801-679-4266</a></li><li><strong>Hansen HVAC &amp; Plumbing</strong> — <a href='tel:+18012808812'>801-280-8812</a></li></ul></section>
-<section class="zoho"><strong>Zoho:</strong> Import <code>exports/day1-zoho-leads-import.csv</code> (Lead Source Partner Outreach) or add ZOHO_* / Apps Script /exec.</section>
+<section class="zoho">
+  <strong>CRM before you dial (pick one)</strong>
+  <ol style="margin:8px 0 0;padding-left:1.2rem;font-family:system-ui,sans-serif;font-size:.9rem;line-height:1.45">
+    <li><a href="./day1-zoho-leads-import.csv">Download Day 1 CSV</a> → Zoho CRM → Leads → Import → map <code>Lead Source</code> = <strong>Partner Outreach</strong></li>
+    <li>Or <a href="./zoho-upload.html">Upload via Apps Script</a> (paste <code>/exec</code> + secret — uses existing Calendar→Zoho <code>ZOHO_*</code>)</li>
+  </ol>
+</section>
 </main>
 <div class="toast" id="toast">Copied</div>
 <script>
