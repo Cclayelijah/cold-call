@@ -11,7 +11,9 @@
       "website": "https://www.comfortprosutah.com",
       "name": "",
       "channel": "email",
-      "notes": "HVAC+plumbing+softeners; south valley"
+      "notes": "HVAC+plumbing+softeners; south valley",
+      "status": "ready",
+      "timing": "tonight"
     },
     {
       "company": "Manwill Plumbing Heating & Air",
@@ -21,7 +23,9 @@
       "website": "https://manwill.net",
       "name": "",
       "channel": "phone",
-      "notes": "Nearly 100 years; water softeners + plumbing"
+      "notes": "Nearly 100 years; water softeners + plumbing",
+      "status": "ready",
+      "timing": "friday_9am_mt"
     },
     {
       "company": "1st American Plumbing Heating & Air",
@@ -31,7 +35,9 @@
       "website": "https://www.1stamericanplumbing.com",
       "name": "",
       "channel": "email",
-      "notes": "Bluffdale/Herriman hard-water focus"
+      "notes": "Bluffdale/Herriman hard-water focus",
+      "status": "ready",
+      "timing": "tonight"
     },
     {
       "company": "Towers Plumbing",
@@ -41,7 +47,9 @@
       "website": "https://towersplumbing.com",
       "name": "",
       "channel": "phone",
-      "notes": "Family-owned since 1942; HVAC+plumbing"
+      "notes": "Family-owned since 1942; HVAC+plumbing",
+      "status": "ready",
+      "timing": "friday_9am_mt"
     },
     {
       "company": "Maven Home Interiors",
@@ -51,7 +59,9 @@
       "website": "https://www.mavenhomeinteriors.com",
       "name": "Rachel Hutchens",
       "channel": "email",
-      "notes": "Kitchen/bath/remodel design \u2014 mattress fit"
+      "notes": "Kitchen/bath/remodel design \u2014 mattress fit",
+      "status": "ready",
+      "timing": "tonight"
     },
     {
       "company": "Stage 7 Design",
@@ -61,7 +71,9 @@
       "website": "https://www.stage7design.com",
       "name": "Samantha Carson",
       "channel": "email",
-      "notes": "Interior design + staging; realtor adjacent"
+      "notes": "Interior design + staging; realtor adjacent",
+      "status": "ready",
+      "timing": "tonight"
     },
     {
       "company": "Nest Style & Design",
@@ -71,7 +83,9 @@
       "website": "https://www.neststyleanddesign.com",
       "name": "Brittany",
       "channel": "email",
-      "notes": "Interior design firm"
+      "notes": "Interior design firm",
+      "status": "ready",
+      "timing": "tonight"
     },
     {
       "company": "Brozwood HVAC",
@@ -81,7 +95,9 @@
       "website": "https://www.brozwood.com",
       "name": "",
       "channel": "phone",
-      "notes": "South valley HVAC residential"
+      "notes": "South valley HVAC residential",
+      "status": "ready",
+      "timing": "friday_9am_mt"
     },
     {
       "company": "Lake Hazel Design",
@@ -91,7 +107,9 @@
       "website": "",
       "name": "",
       "channel": "phone",
-      "notes": "Interior design HBA member"
+      "notes": "Interior design HBA member",
+      "status": "ready",
+      "timing": "friday_9am_mt"
     },
     {
       "company": "Three Peak Construction",
@@ -101,7 +119,9 @@
       "website": "https://threepeakconstruction.com",
       "name": "",
       "channel": "phone",
-      "notes": "Remodel/additions \u2014 bedroom projects"
+      "notes": "Remodel/additions \u2014 bedroom projects",
+      "status": "ready",
+      "timing": "friday_9am_mt"
     }
   ],
   "openers": [

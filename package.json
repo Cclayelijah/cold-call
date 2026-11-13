@@ -7,6 +7,11 @@
     "upsert:day1": "node scripts/zoho-partner-upsert.mjs exports/day1-partner-outreach-payload.json",
     "upsert:day2": "node scripts/zoho-partner-upsert.mjs exports/day2-partner-outreach-payload.json",
     "csv:day1": "node scripts/export-zoho-csv.mjs queues/day1.json exports/day1-zoho-leads-import.csv",
-    "csv:day2": "node scripts/export-zoho-csv.mjs queues/day2.json exports/day2-zoho-leads-import.csv"
+    "csv:day2": "node scripts/export-zoho-csv.mjs queues/day2.json exports/day2-zoho-leads-import.csv",
+    "sheet:day1": "node scripts/build-dial-sheet.mjs queues/day1.json exports/day1-dial-sheet.html",
+    "sheet:day2": "node scripts/build-dial-sheet.mjs queues/day2.json exports/day2-dial-sheet.html",
+    "sheet:day3": "node scripts/build-dial-sheet.mjs queues/day3.json exports/day3-dial-sheet.html",
+    "csv:day3": "node scripts/export-zoho-csv.mjs queues/day3.json exports/day3-zoho-leads-import.csv",
+    "upsert:day3": "node scripts/zoho-partner-upsert.mjs exports/day3-partner-outreach-payload.json"
   }
 }

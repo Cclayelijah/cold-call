@@ -34,6 +34,12 @@ Techs or advisors already in homes: water treatment, plumbing, HVAC, cleaning, m
 - Duplicate check: Email if present, else Phone
 - No automated prospect emails from this repo
 
+## Current queues
+
+- Day 1–3 under `queues/` with matching `exports/*-dial-sheet.html` and Zoho CSVs
+- Regenerate dial sheets: `npm run sheet:day1` (etc.)
+- Apps Script CRM unblock (uses existing Calendar→Zoho OAuth): see `docs/PARTNER_OUTREACH_APPS_SCRIPT.md` and `docs/PartnerOutreach.gs`
+
 ## Related
 
 - Partner portal: https://partner.saratogamattresses.com/
