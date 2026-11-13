@@ -14,6 +14,7 @@
     {
       "company": "Manwill Plumbing Heating & Air",
       "phone": "801-262-4671",
+      "email": "manwillplumbing@gmail.com",
       "website": "https://manwill.net",
       "city": "Salt Lake City",
       "channel": "phone",
@@ -31,6 +32,7 @@
     {
       "company": "Towers Plumbing",
       "phone": "801-266-3529",
+      "email": "info@towersplumbing.com",
       "website": "https://towersplumbing.com",
       "city": "Murray / SLC",
       "channel": "phone",
@@ -69,6 +71,7 @@
     {
       "company": "Brozwood HVAC",
       "phone": "385-396-7105",
+      "email": "brozwood.hvac@gmail.com",
       "website": "https://www.brozwood.com",
       "city": "Herriman",
       "channel": "phone",
@@ -77,6 +80,8 @@
     {
       "company": "Lake Hazel Design",
       "phone": "801-623-3236",
+      "email": "info@lakehazeldesign.com",
+      "website": "https://lakehazeldesign.com",
       "city": "South Jordan",
       "channel": "phone",
       "notes": "Interior design HBA member"
@@ -84,6 +89,7 @@
     {
       "company": "Three Peak Construction",
       "phone": "435-214-1669",
+      "email": "hermes@threepeakconstruction.com",
       "website": "https://threepeakconstruction.com",
       "city": "Bluffdale",
       "channel": "phone",
