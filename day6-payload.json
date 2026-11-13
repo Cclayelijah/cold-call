@@ -1,0 +1,99 @@
+{
+  "day": 6,
+  "generatedAt": "2026-11-12T20:05:00-07:00",
+  "leads": [
+    {
+      "company": "Larsen HVAC & Plumbing",
+      "name": "Shawn",
+      "phone": "801-930-5450",
+      "email": "shawn@larsenhvac.com",
+      "website": "https://larsenhvac.com",
+      "city": "West Jordan",
+      "channel": "email",
+      "notes": "Family-owned HVAC/plumbing; named contact Shawn"
+    },
+    {
+      "company": "Design Comfort",
+      "phone": "801-277-6912",
+      "email": "dispatcher@designcomfortco.com",
+      "website": "https://www.designcomfortco.com",
+      "city": "Salt Lake City",
+      "channel": "email",
+      "notes": "35+ years HVAC/plumbing on Highland Dr — email dispatcher"
+    },
+    {
+      "company": "Damestiques Cleaning Services",
+      "phone": "801-485-7040",
+      "email": "info@damestiques.com",
+      "website": "https://damestiques.com",
+      "city": "Salt Lake City",
+      "channel": "email",
+      "notes": "Residential + commercial cleaning SLC/Park City"
+    },
+    {
+      "company": "MK ProSteam Carpet Cleaning",
+      "phone": "801-810-9115",
+      "email": "mkprosteam@gmail.com",
+      "website": "https://mkprosteam.com",
+      "city": "Midvale",
+      "channel": "email",
+      "notes": "Family carpet/upholstery cleaning across Wasatch Front"
+    },
+    {
+      "company": "Green Clean Solutions",
+      "phone": "801-599-1993",
+      "email": "manual@thekeycc.com",
+      "website": "https://greencleansaltlake.com",
+      "city": "Layton / Salt Lake Valley",
+      "channel": "email",
+      "notes": "Organic carpet + tile cleaning; multi-city SLC/Davis"
+    },
+    {
+      "company": "ClearPoint Window Cleaning",
+      "phone": "801-783-1197",
+      "email": "clearpointutah@gmail.com",
+      "website": "https://clearpointutah.com",
+      "city": "South Jordan",
+      "channel": "email",
+      "notes": "Window cleaning with realtor/contractor partnerships"
+    },
+    {
+      "company": "Elev8 Property Masters",
+      "phone": "385-450-3431",
+      "email": "elev8pm@outlook.com",
+      "website": "https://www.elev8propertymasters.com",
+      "city": "West Jordan",
+      "channel": "phone",
+      "notes": "Window cleaning + multi-family; text-friendly line"
+    },
+    {
+      "company": "Ace Pest Control",
+      "name": "Dan Watson",
+      "phone": "801-266-1455",
+      "email": "contact@acepestcontrolutah.com",
+      "website": "http://acepestcontrolutah.com",
+      "city": "Murray",
+      "channel": "email",
+      "notes": "30+ years Wasatch Front pest control; owner Dan"
+    },
+    {
+      "company": "Econo-Pest Services",
+      "phone": "801-467-1451",
+      "email": "econo-pest@live.com",
+      "website": "https://www.econopestservices.com",
+      "city": "Salt Lake City",
+      "channel": "email",
+      "notes": "Local pest control since 1979 — residential + commercial"
+    },
+    {
+      "company": "Vatos Flooring",
+      "name": "Israel",
+      "phone": "801-636-1881",
+      "email": "Israel@VatosFlooring.com",
+      "website": "https://www.vatosflooring.com",
+      "city": "Salt Lake City",
+      "channel": "email",
+      "notes": "Flooring contractor — remodel/new construction bedroom adjacency"
+    }
+  ]
+}
