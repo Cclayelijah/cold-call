@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Friday 9am MT — Day 1 phones</title>
+<style>
+body{margin:0;font:18px/1.35 system-ui,sans-serif;background:#1c1914;color:#f7f3ea;padding:20px 16px 48px}
+h1{font:700 1.35rem Georgia,serif;margin:0 0 8px}
+p{opacity:.85;margin:0 0 16px;font-size:.95rem}
+.big{display:block;background:#0b3d4a;color:#fff;text-decoration:none;padding:16px;border-radius:10px;margin:12px 0;font-weight:700}
+.big span{font-weight:500;opacity:.9;font-size:.9rem}
+.copy{background:#5a6b70;color:#fff;border:0;padding:10px 12px;border-radius:8px;font:600 14px system-ui;margin:0 0 8px}
+pre{white-space:pre-wrap;background:#2a2620;padding:10px;border-radius:8px;font:13px/1.4 ui-monospace,monospace}
+a.sec{color:#9fd0db}
+</style></head><body>
+<h1>Friday · 9:00 AM America/Denver</h1>
+<p>Phone the four Day 1 leftovers. CRM should already show Lead Source Partner Outreach.</p>
+<a class="big" href="tel:+18018569671">1. Call NuWater Technologies<br><span>801-856-9671</span></a>
+<button type="button" class="copy" data-script="Hi, this is Elijah with Saratoga Mattresses on 300 West. Quick partnership ask — not a sales call for a job. We give local home-service partners a discount-code flyer. Their customers get 10% off a mattress in our showroom; the partner earns 10% of that discounted subtotal. No inventory on your side. Is the owner or office manager available for 2 minutes, or should I email a one-pager?">Copy script</button><a class="big" href="tel:+18013830880">2. Call Element Water and Air<br><span>801-383-0880</span></a>
+<button type="button" class="copy" data-script="Hi, this is Elijah with Saratoga Mattresses on 300 West. Quick partnership ask — not a sales call for a job. We give local home-service partners a discount-code flyer. Their customers get 10% off a mattress in our showroom; the partner earns 10% of that discounted subtotal. No inventory on your side. Is the owner or office manager available for 2 minutes, or should I email a one-pager?">Copy script</button><a class="big" href="tel:+18016794266">3. Call Glover Services<br><span>801-679-4266</span></a>
+<button type="button" class="copy" data-script="Hi, this is Elijah with Saratoga Mattresses on 300 West. Quick partnership ask — not a sales call for a job. We give local home-service partners a discount-code flyer. Their customers get 10% off a mattress in our showroom; the partner earns 10% of that discounted subtotal. No inventory on your side. Is the owner or office manager available for 2 minutes, or should I email a one-pager?">Copy script</button><a class="big" href="tel:+18012808812">4. Call Hansen HVAC & Plumbing<br><span>801-280-8812</span></a>
+<button type="button" class="copy" data-script="Hi, this is Elijah with Saratoga Mattresses on 300 West. Quick partnership ask — not a sales call for a job. We give local home-service partners a discount-code flyer. Their customers get 10% off a mattress in our showroom; the partner earns 10% of that discounted subtotal. No inventory on your side. Is the owner or office manager available for 2 minutes, or should I email a one-pager?">Copy script</button>
+<pre id="script">Hi, this is Elijah with Saratoga Mattresses on 300 West. Quick partnership ask — not a sales call for a job. We give local home-service partners a discount-code flyer. Their customers get 10% off a mattress in our showroom; the partner earns 10% of that discounted subtotal. No inventory on your side. Is the owner or office manager available for 2 minutes, or should I email a one-pager?</pre>
+<a class="sec" href="./start-day1.html">Tonight pack</a>
+<script>
+document.querySelectorAll('button.copy').forEach(b=>b.onclick=async()=>{
+  const t=document.getElementById('script').textContent;
+  try{await navigator.clipboard.writeText(t);b.textContent='Copied';setTimeout(()=>b.textContent='Copy script',1000)}catch(e){}
+});
+</script>
+</body></html>
