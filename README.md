@@ -27,6 +27,15 @@ Daily system to recruit Salt Lake Valley partner businesses for the Saratoga Mat
 
 Techs or advisors already in homes: water treatment, plumbing, HVAC, cleaning, movers, realtors, interior designers, remodelers. Geography: Bluffdale, Herriman, Riverton, South Jordan, Draper, Sandy, West Jordan, Saratoga Springs, Lehi, Salt Lake City.
 
+## Zoho upload via GitHub Actions
+
+1. In this repo: **Settings → Secrets and variables → Actions**
+2. Add `ZOHO_CLIENT_ID`, `ZOHO_CLIENT_SECRET`, `ZOHO_REFRESH_TOKEN` (same Self Client as the website / Apps Script)
+3. Ensure Zoho Lead Source picklist includes **Partner Outreach**
+4. **Actions → Zoho Partner Outreach upsert → Run workflow → day 1**
+
+This uploads CRM leads without Hostinger deploy or Cursor environment secrets.
+
 ## Zoho field mapping
 
 - `Lead_Source` = `Partner Outreach` (add picklist value once)
