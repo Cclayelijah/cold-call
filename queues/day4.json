@@ -1,0 +1,127 @@
+{
+  "day": 4,
+  "generatedAt": "2026-11-12T18:35:00-07:00",
+  "timezone": "America/Denver",
+  "leads": [
+    {
+      "company": "Precision Cleaning Services",
+      "city": "Riverton",
+      "phone": "385-229-6519",
+      "email": "Christian@PrecisionCleanutah.com",
+      "website": "https://www.precisioncleanutah.com/",
+      "name": "Christian",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Move-out / post-construction — realtor + remodel ICP overlap"
+    },
+    {
+      "company": "Momentum Cleaning Professionals",
+      "city": "Riverton",
+      "phone": "385-321-8497",
+      "email": "jimh@momentumcleaningpros.com",
+      "website": "https://momentumcleaningpros.com/",
+      "name": "Jim",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Named contact Jim; Salt Lake & Summit counties"
+    },
+    {
+      "company": "Master Cleaning LC",
+      "city": "Draper",
+      "phone": "801-253-9956",
+      "email": "bp@masterutah.com",
+      "website": "https://masterutah.com/",
+      "name": "",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Draper-based residential cleaning"
+    },
+    {
+      "company": "Salt & Slate Cleaning",
+      "city": "Salt Lake City / Draper",
+      "phone": "385-333-7737",
+      "email": "hello@saltandslatecleaning.com",
+      "website": "https://saltandslatecleaning.com/",
+      "name": "",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Multi-office; SLC HQ + Draper location"
+    },
+    {
+      "company": "Queen of Maids (Salt Lake)",
+      "city": "Salt Lake Valley",
+      "phone": "385-213-3150",
+      "email": "contact@queenofmaids.com",
+      "website": "https://www.queenofmaids.com/",
+      "name": "",
+      "channel": "phone",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Family-owned regional cleaner; SLC metro line"
+    },
+    {
+      "company": "Build Doctors",
+      "city": "Herriman",
+      "phone": "801-980-9010",
+      "email": "info@builddoctors.com",
+      "website": "https://builddoctors.com/",
+      "name": "",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Design-build remodel; kitchen/bath/basement — strong partner ICP"
+    },
+    {
+      "company": "Topp Remodeling & Construction",
+      "city": "Sandy / South Jordan",
+      "phone": "801-293-9014",
+      "email": "info@toppconstruction.com",
+      "website": "https://toppconstruction.com/",
+      "name": "",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Family GC; residential remodel + additions"
+    },
+    {
+      "company": "Platinum Builders",
+      "city": "American Fork / south valley",
+      "phone": "801-380-5438",
+      "email": "contact@platinumbuildersutah.com",
+      "website": "https://platinumbuildersutah.com/",
+      "name": "Ethan",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Ask for Ethan; kitchen/bath/basement remodels"
+    },
+    {
+      "company": "King Construction Services",
+      "city": "Salt Lake County",
+      "phone": "801-856-5650",
+      "email": "mike@kingllc.net",
+      "website": "https://www.kingut.com/",
+      "name": "Mike",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "Named Mike; custom homes + remodeling across valley"
+    },
+    {
+      "company": "Justin Udy & Team Real Estate",
+      "city": "Cottonwood Heights",
+      "phone": "801-285-0521",
+      "email": "justin@justinudy.com",
+      "website": "https://www.justinudy.com/",
+      "name": "Justin Udy",
+      "channel": "email",
+      "timing": "next_batch",
+      "status": "ready",
+      "notes": "High-volume team; buyers/sellers get mattress referral flyers"
+    }
+  ]
+}

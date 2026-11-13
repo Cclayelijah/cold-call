@@ -29,6 +29,8 @@ Techs or advisors already in homes: water treatment, plumbing, HVAC, cleaning, m
 
 ## Zoho upload via GitHub Actions
 
+> **Note:** `workflow_dispatch` only appears after this PR is merged to `main`. Until then use CSV import, Apps Script, or local `npm run upsert:dayN` with `.env`.
+
 1. In this repo: **Settings → Secrets and variables → Actions**
 2. Add `ZOHO_CLIENT_ID`, `ZOHO_CLIENT_SECRET`, `ZOHO_REFRESH_TOKEN` (same Self Client as the website / Apps Script)
 3. Ensure Zoho Lead Source picklist includes **Partner Outreach**

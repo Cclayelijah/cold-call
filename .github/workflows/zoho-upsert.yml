@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       day:
-        description: "Queue day to upsert (1, 2, or 3)"
+        description: "Queue day to upsert (1–4)"
         required: true
         default: "1"
         type: choice
@@ -12,6 +12,7 @@ on:
           - "1"
           - "2"
           - "3"
+          - "4"
 
 jobs:
   upsert:

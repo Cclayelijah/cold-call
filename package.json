@@ -12,6 +12,9 @@
     "sheet:day2": "node scripts/build-dial-sheet.mjs queues/day2.json exports/day2-dial-sheet.html",
     "sheet:day3": "node scripts/build-dial-sheet.mjs queues/day3.json exports/day3-dial-sheet.html",
     "csv:day3": "node scripts/export-zoho-csv.mjs queues/day3.json exports/day3-zoho-leads-import.csv",
-    "upsert:day3": "node scripts/zoho-partner-upsert.mjs exports/day3-partner-outreach-payload.json"
+    "upsert:day3": "node scripts/zoho-partner-upsert.mjs exports/day3-partner-outreach-payload.json",
+    "sheet:day4": "node scripts/build-dial-sheet.mjs queues/day4.json exports/day4-dial-sheet.html",
+    "csv:day4": "node scripts/export-zoho-csv.mjs queues/day4.json exports/day4-zoho-leads-import.csv",
+    "upsert:day4": "node scripts/zoho-partner-upsert.mjs exports/day4-partner-outreach-payload.json"
   }
 }
