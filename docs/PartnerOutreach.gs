@@ -23,25 +23,61 @@ var SM_PARTNER_ALLOWED_CHANNELS = ['phone', 'email', 'text'];
  */
 function doPost(e) {
   try {
-    var raw = (e && e.postData && e.postData.contents) ? String(e.postData.contents) : '';
-    if (!raw || raw.length > SM_PARTNER_MAX_BODY) {
-      return smPartnerJsonResponse_({ok: false, error: 'Invalid request size'}, 413);
+    var input = smPartnerParseInput_(e);
+    if (input.error) {
+      return smPartnerJsonResponse_({ok: false, error: input.error}, input.http || 422);
     }
-    var input;
-    try {
-      input = JSON.parse(raw);
-    } catch (_) {
-      return smPartnerJsonResponse_({ok: false, error: 'Invalid JSON'}, 422);
-    }
-    if (!input || typeof input !== 'object' || Array.isArray(input)) {
-      return smPartnerJsonResponse_({ok: false, error: 'Invalid JSON'}, 422);
-    }
-    var result = smPartnerProcessUpsert_(input);
+    var result = smPartnerProcessUpsert_(input.body);
     return smPartnerJsonResponse_(result.body, result.http);
   } catch (err) {
     console.log('Partner outreach doPost failed: ' + String(err && err.message ? err.message : err).slice(0, 120));
     return smPartnerJsonResponse_({ok: false, error: 'Server error'}, 500);
   }
+}
+
+/**
+ * Accepts JSON body {secret, leads} or form fields secret + payload
+ * (payload = JSON string of {leads:[...]} or the leads array).
+ * Form posts enable a browser dial-sheet upload page without CORS issues.
+ */
+function smPartnerParseInput_(e) {
+  var params = (e && e.parameter) ? e.parameter : {};
+  if (params && params.payload) {
+    var formSecret = params.secret;
+    var parsedPayload;
+    try {
+      parsedPayload = JSON.parse(String(params.payload));
+    } catch (_) {
+      return {error: 'Invalid payload JSON', http: 422};
+    }
+    var formBody;
+    if (Array.isArray(parsedPayload)) {
+      formBody = {secret: formSecret, leads: parsedPayload};
+    } else if (parsedPayload && typeof parsedPayload === 'object') {
+      formBody = {
+        secret: formSecret || parsedPayload.secret,
+        leads: parsedPayload.leads
+      };
+    } else {
+      return {error: 'Invalid payload JSON', http: 422};
+    }
+    return {body: formBody};
+  }
+
+  var raw = (e && e.postData && e.postData.contents) ? String(e.postData.contents) : '';
+  if (!raw || raw.length > SM_PARTNER_MAX_BODY) {
+    return {error: 'Invalid request size', http: 413};
+  }
+  var input;
+  try {
+    input = JSON.parse(raw);
+  } catch (_) {
+    return {error: 'Invalid JSON', http: 422};
+  }
+  if (!input || typeof input !== 'object' || Array.isArray(input)) {
+    return {error: 'Invalid JSON', http: 422};
+  }
+  return {body: input};
 }
 
 /**

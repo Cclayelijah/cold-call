@@ -4,6 +4,10 @@ Unblocks Salt Lake City partner-program CRM uploads **without** Hostinger `.sara
 
 CRM upload only. Never sends prospect or customer email. Does not set Zoho workflow triggers (website-lead automations stay quiet).
 
+## Browser upload page
+
+After deploy, open the partner portal `/outreach/zoho-upload.html` (or cold-call dial hub). Paste the `/exec` URL and `OUTREACH_SECRET`, pick a day, and submit. The page POSTs form fields `secret` + `payload` (accepted by `doPost` in addition to JSON).
+
 ## Prerequisites
 
 1. The Calendar → Zoho Apps Script project already works (`Code.gs` + `ZOHO_CLIENT_ID` / `ZOHO_CLIENT_SECRET` / `ZOHO_REFRESH_TOKEN`).
